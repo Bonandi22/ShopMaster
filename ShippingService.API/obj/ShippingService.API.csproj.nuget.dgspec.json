@@ -1,0 +1,346 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.API\\ShippingService.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.API\\ShippingService.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.API\\ShippingService.API.csproj",
+        "projectName": "ShippingService.API",
+        "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.API\\ShippingService.API.csproj",
+        "packagesPath": "C:\\Users\\elker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Application\\ShippingService.Application.csproj": {
+                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Application\\ShippingService.Application.csproj"
+              },
+              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Crosscutting\\ShippingService.Crosscutting.csproj": {
+                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Crosscutting\\ShippingService.Crosscutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Application\\ShippingService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Application\\ShippingService.Application.csproj",
+        "projectName": "ShippingService.Application",
+        "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Application\\ShippingService.Application.csproj",
+        "packagesPath": "C:\\Users\\elker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Crosscutting\\ShippingService.Crosscutting.csproj": {
+                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Crosscutting\\ShippingService.Crosscutting.csproj"
+              },
+              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Domain\\ShippingService.Domain.csproj": {
+                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Domain\\ShippingService.Domain.csproj"
+              },
+              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Infrastructure\\ShippingService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Infrastructure\\ShippingService.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Crosscutting\\ShippingService.Crosscutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Crosscutting\\ShippingService.Crosscutting.csproj",
+        "projectName": "ShippingService.Crosscutting",
+        "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Crosscutting\\ShippingService.Crosscutting.csproj",
+        "packagesPath": "C:\\Users\\elker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Crosscutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Domain\\ShippingService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Domain\\ShippingService.Domain.csproj",
+        "projectName": "ShippingService.Domain",
+        "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Domain\\ShippingService.Domain.csproj",
+        "packagesPath": "C:\\Users\\elker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Infrastructure\\ShippingService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Infrastructure\\ShippingService.Infrastructure.csproj",
+        "projectName": "ShippingService.Infrastructure",
+        "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Infrastructure\\ShippingService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\elker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Crosscutting\\ShippingService.Crosscutting.csproj": {
+                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Crosscutting\\ShippingService.Crosscutting.csproj"
+              },
+              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Domain\\ShippingService.Domain.csproj": {
+                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShippingService.Domain\\ShippingService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

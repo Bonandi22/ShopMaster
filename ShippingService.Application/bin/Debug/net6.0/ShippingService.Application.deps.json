@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ShippingService.Application/1.0.0": {
+        "dependencies": {
+          "ShippingService.Crosscutting": "1.0.0",
+          "ShippingService.Domain": "1.0.0",
+          "ShippingService.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "ShippingService.Application.dll": {}
+        }
+      },
+      "ShippingService.Crosscutting/1.0.0": {
+        "runtime": {
+          "ShippingService.Crosscutting.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ShippingService.Domain/1.0.0": {
+        "runtime": {
+          "ShippingService.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ShippingService.Infrastructure/1.0.0": {
+        "dependencies": {
+          "ShippingService.Crosscutting": "1.0.0",
+          "ShippingService.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ShippingService.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShippingService.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShippingService.Crosscutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShippingService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShippingService.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

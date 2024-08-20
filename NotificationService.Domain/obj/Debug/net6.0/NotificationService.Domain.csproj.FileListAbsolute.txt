@@ -1,0 +1,12 @@
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\NotificationService.Domain\bin\Debug\net6.0\NotificationService.Domain.deps.json
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\NotificationService.Domain\bin\Debug\net6.0\NotificationService.Domain.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\NotificationService.Domain\bin\Debug\net6.0\NotificationService.Domain.pdb
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\NotificationService.Domain\obj\Debug\net6.0\NotificationService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\NotificationService.Domain\obj\Debug\net6.0\NotificationService.Domain.AssemblyInfoInputs.cache
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\NotificationService.Domain\obj\Debug\net6.0\NotificationService.Domain.AssemblyInfo.cs
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\NotificationService.Domain\obj\Debug\net6.0\NotificationService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\NotificationService.Domain\obj\Debug\net6.0\NotificationService.Domain.sourcelink.json
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\NotificationService.Domain\obj\Debug\net6.0\NotificationService.Domain.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\NotificationService.Domain\obj\Debug\net6.0\refint\NotificationService.Domain.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\NotificationService.Domain\obj\Debug\net6.0\NotificationService.Domain.pdb
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\NotificationService.Domain\obj\Debug\net6.0\ref\NotificationService.Domain.dll

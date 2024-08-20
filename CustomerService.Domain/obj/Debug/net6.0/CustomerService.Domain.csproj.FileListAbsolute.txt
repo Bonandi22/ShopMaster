@@ -1,0 +1,12 @@
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Domain\bin\Debug\net6.0\CustomerService.Domain.deps.json
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Domain\bin\Debug\net6.0\CustomerService.Domain.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Domain\bin\Debug\net6.0\CustomerService.Domain.pdb
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Domain\obj\Debug\net6.0\CustomerService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Domain\obj\Debug\net6.0\CustomerService.Domain.AssemblyInfoInputs.cache
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Domain\obj\Debug\net6.0\CustomerService.Domain.AssemblyInfo.cs
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Domain\obj\Debug\net6.0\CustomerService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Domain\obj\Debug\net6.0\CustomerService.Domain.sourcelink.json
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Domain\obj\Debug\net6.0\CustomerService.Domain.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Domain\obj\Debug\net6.0\refint\CustomerService.Domain.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Domain\obj\Debug\net6.0\CustomerService.Domain.pdb
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Domain\obj\Debug\net6.0\ref\CustomerService.Domain.dll

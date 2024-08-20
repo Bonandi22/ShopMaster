@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NotificationService.Infrastructure/1.0.0": {
+        "dependencies": {
+          "NotificationService.Crosscutting": "1.0.0",
+          "NotificationService.Domain": "1.0.0"
+        },
+        "runtime": {
+          "NotificationService.Infrastructure.dll": {}
+        }
+      },
+      "NotificationService.Crosscutting/1.0.0": {
+        "runtime": {
+          "NotificationService.Crosscutting.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NotificationService.Domain/1.0.0": {
+        "runtime": {
+          "NotificationService.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NotificationService.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NotificationService.Crosscutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NotificationService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

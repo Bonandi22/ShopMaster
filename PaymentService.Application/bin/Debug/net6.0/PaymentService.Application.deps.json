@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PaymentService.Application/1.0.0": {
+        "dependencies": {
+          "PaymentService.Crosscutting": "1.0.0",
+          "PaymentService.Domain": "1.0.0",
+          "PaymentService.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "PaymentService.Application.dll": {}
+        }
+      },
+      "PaymentService.Crosscutting/1.0.0": {
+        "runtime": {
+          "PaymentService.Crosscutting.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PaymentService.Domain/1.0.0": {
+        "runtime": {
+          "PaymentService.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PaymentService.Infrastructure/1.0.0": {
+        "dependencies": {
+          "PaymentService.Crosscutting": "1.0.0",
+          "PaymentService.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PaymentService.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PaymentService.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaymentService.Crosscutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaymentService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaymentService.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

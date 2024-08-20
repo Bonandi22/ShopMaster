@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "PromotionService.Crosscutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PromotionService.Crosscutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PromotionService.Crosscutting.dll": {}
+        }
+      },
+      "PromotionService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PromotionService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PromotionService.Domain.dll": {}
+        }
+      },
+      "PromotionService.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PromotionService.Crosscutting": "1.0.0",
+          "PromotionService.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PromotionService.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PromotionService.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PromotionService.Crosscutting/1.0.0": {
+      "type": "project",
+      "path": "../PromotionService.Crosscutting/PromotionService.Crosscutting.csproj",
+      "msbuildProject": "../PromotionService.Crosscutting/PromotionService.Crosscutting.csproj"
+    },
+    "PromotionService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PromotionService.Domain/PromotionService.Domain.csproj",
+      "msbuildProject": "../PromotionService.Domain/PromotionService.Domain.csproj"
+    },
+    "PromotionService.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../PromotionService.Infrastructure/PromotionService.Infrastructure.csproj",
+      "msbuildProject": "../PromotionService.Infrastructure/PromotionService.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "PromotionService.Crosscutting >= 1.0.0",
+      "PromotionService.Domain >= 1.0.0",
+      "PromotionService.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\elker\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PromotionService.Application\\PromotionService.Application.csproj",
+      "projectName": "PromotionService.Application",
+      "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PromotionService.Application\\PromotionService.Application.csproj",
+      "packagesPath": "C:\\Users\\elker\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PromotionService.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\elker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PromotionService.Crosscutting\\PromotionService.Crosscutting.csproj": {
+              "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PromotionService.Crosscutting\\PromotionService.Crosscutting.csproj"
+            },
+            "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PromotionService.Domain\\PromotionService.Domain.csproj": {
+              "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PromotionService.Domain\\PromotionService.Domain.csproj"
+            },
+            "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PromotionService.Infrastructure\\PromotionService.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PromotionService.Infrastructure\\PromotionService.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

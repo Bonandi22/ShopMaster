@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CustomerService.Crosscutting/1.0.0": {
+        "runtime": {
+          "CustomerService.Crosscutting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomerService.Crosscutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

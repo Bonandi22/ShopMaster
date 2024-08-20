@@ -1,0 +1,12 @@
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Crosscutting\bin\Debug\net6.0\IdentityService.Crosscutting.deps.json
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Crosscutting\bin\Debug\net6.0\IdentityService.Crosscutting.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Crosscutting\bin\Debug\net6.0\IdentityService.Crosscutting.pdb
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Crosscutting\obj\Debug\net6.0\IdentityService.Crosscutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Crosscutting\obj\Debug\net6.0\IdentityService.Crosscutting.AssemblyInfoInputs.cache
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Crosscutting\obj\Debug\net6.0\IdentityService.Crosscutting.AssemblyInfo.cs
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Crosscutting\obj\Debug\net6.0\IdentityService.Crosscutting.csproj.CoreCompileInputs.cache
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Crosscutting\obj\Debug\net6.0\IdentityService.Crosscutting.sourcelink.json
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Crosscutting\obj\Debug\net6.0\IdentityService.Crosscutting.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Crosscutting\obj\Debug\net6.0\refint\IdentityService.Crosscutting.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Crosscutting\obj\Debug\net6.0\IdentityService.Crosscutting.pdb
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Crosscutting\obj\Debug\net6.0\ref\IdentityService.Crosscutting.dll

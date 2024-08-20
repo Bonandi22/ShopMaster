@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CustomerService.Infrastructure/1.0.0": {
+        "dependencies": {
+          "CustomerService.Crosscutting": "1.0.0",
+          "CustomerService.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CustomerService.Infrastructure.dll": {}
+        }
+      },
+      "CustomerService.Crosscutting/1.0.0": {
+        "runtime": {
+          "CustomerService.Crosscutting.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CustomerService.Domain/1.0.0": {
+        "runtime": {
+          "CustomerService.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomerService.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CustomerService.Crosscutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CustomerService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
