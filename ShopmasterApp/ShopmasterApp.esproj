@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.1184077">
+  <PropertyGroup>
+    <StartupCommand>npm start</StartupCommand>
+    <JavaScriptTestFramework>Jasmine</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\ShopmasterApp\browser\</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\app\assets\images\" />
+    <Folder Include="src\app\assets\styles\" />
+    <Folder Include="src\app\environments\" />
+    <Folder Include="src\app\features\analytics\components\" />
+    <Folder Include="src\app\features\analytics\containers\" />
+    <Folder Include="src\app\features\analytics\services\" />
+    <Folder Include="src\app\features\catalog\components\" />
+    <Folder Include="src\app\features\catalog\containers\" />
+    <Folder Include="src\app\features\catalog\services\" />
+    <Folder Include="src\app\features\customer\components\" />
+    <Folder Include="src\app\features\customer\containers\" />
+    <Folder Include="src\app\features\customer\services\" />
+    <Folder Include="src\app\features\identity\components\" />
+    <Folder Include="src\app\features\identity\containers\" />
+    <Folder Include="src\app\features\notification\components\" />
+    <Folder Include="src\app\features\notification\containers\" />
+    <Folder Include="src\app\features\notification\services\" />
+    <Folder Include="src\app\features\orders\components\" />
+    <Folder Include="src\app\features\orders\containers\" />
+    <Folder Include="src\app\features\orders\services\" />
+    <Folder Include="src\app\features\payments\components\" />
+    <Folder Include="src\app\features\payments\containers\" />
+    <Folder Include="src\app\features\payments\services\" />
+    <Folder Include="src\app\features\promotion\components\" />
+    <Folder Include="src\app\features\promotion\containers\" />
+    <Folder Include="src\app\features\promotion\services\" />
+    <Folder Include="src\app\features\shipping\components\" />
+    <Folder Include="src\app\features\shipping\containers\" />
+    <Folder Include="src\app\features\shipping\services\" />
+    <Folder Include="src\app\shared\directives\" />
+    <Folder Include="src\app\shared\models\" />
+    <Folder Include="src\app\shared\services\" />
+    <Folder Include="src\app\shared\pipes\" />
+    <Folder Include="src\app\styles\" />
+  </ItemGroup>
+</Project>

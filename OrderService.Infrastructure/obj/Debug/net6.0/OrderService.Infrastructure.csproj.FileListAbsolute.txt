@@ -16,3 +16,5 @@ C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\OrderService.Infrastruct
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\OrderService.Infrastructure\obj\Debug\net6.0\refint\OrderService.Infrastructure.dll
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\OrderService.Infrastructure\obj\Debug\net6.0\OrderService.Infrastructure.pdb
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\OrderService.Infrastructure\obj\Debug\net6.0\ref\OrderService.Infrastructure.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\OrderService.Infrastructure\bin\Debug\net6.0\OrderService.Infrastructure.runtimeconfig.json
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\OrderService.Infrastructure\obj\Debug\net6.0\OrderService.Infrastructure.genruntimeconfig.cache

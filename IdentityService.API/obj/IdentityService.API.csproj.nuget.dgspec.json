@@ -29,11 +29,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Application\\PaymentService.Application.csproj": {
-                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Application\\PaymentService.Application.csproj"
+              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Application\\IdentityService.Application.csproj": {
+                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Application\\IdentityService.Application.csproj"
               },
-              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Crosscutting\\PaymentService.Crosscutting.csproj": {
-                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Crosscutting\\PaymentService.Crosscutting.csproj"
+              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Crosscutting\\IdentityService.Crosscutting.csproj": {
+                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Crosscutting\\IdentityService.Crosscutting.csproj"
               }
             }
           }
@@ -53,6 +53,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -81,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Application\\PaymentService.Application.csproj": {
+    "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Application\\IdentityService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Application\\PaymentService.Application.csproj",
-        "projectName": "PaymentService.Application",
-        "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Application\\PaymentService.Application.csproj",
+        "projectUniqueName": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Application\\IdentityService.Application.csproj",
+        "projectName": "IdentityService.Application",
+        "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Application\\IdentityService.Application.csproj",
         "packagesPath": "C:\\Users\\elker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Application\\obj\\",
+        "outputPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elker\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -106,14 +116,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Crosscutting\\PaymentService.Crosscutting.csproj": {
-                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Crosscutting\\PaymentService.Crosscutting.csproj"
+              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Crosscutting\\IdentityService.Crosscutting.csproj": {
+                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Crosscutting\\IdentityService.Crosscutting.csproj"
               },
-              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Domain\\PaymentService.Domain.csproj": {
-                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Domain\\PaymentService.Domain.csproj"
+              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Domain\\IdentityService.Domain.csproj": {
+                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Domain\\IdentityService.Domain.csproj"
               },
-              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj"
+              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Infrastructure\\IdentityService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Infrastructure\\IdentityService.Infrastructure.csproj"
               }
             }
           }
@@ -132,6 +142,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.1.39, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.35.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -152,14 +176,14 @@
         }
       }
     },
-    "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Crosscutting\\PaymentService.Crosscutting.csproj": {
+    "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Crosscutting\\IdentityService.Crosscutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Crosscutting\\PaymentService.Crosscutting.csproj",
-        "projectName": "PaymentService.Crosscutting",
-        "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Crosscutting\\PaymentService.Crosscutting.csproj",
+        "projectUniqueName": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Crosscutting\\IdentityService.Crosscutting.csproj",
+        "projectName": "IdentityService.Crosscutting",
+        "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Crosscutting\\IdentityService.Crosscutting.csproj",
         "packagesPath": "C:\\Users\\elker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Crosscutting\\obj\\",
+        "outputPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Crosscutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elker\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -213,14 +237,14 @@
         }
       }
     },
-    "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Domain\\PaymentService.Domain.csproj": {
+    "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Domain\\IdentityService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Domain\\PaymentService.Domain.csproj",
-        "projectName": "PaymentService.Domain",
-        "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Domain\\PaymentService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Domain\\IdentityService.Domain.csproj",
+        "projectName": "IdentityService.Domain",
+        "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Domain\\IdentityService.Domain.csproj",
         "packagesPath": "C:\\Users\\elker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Domain\\obj\\",
+        "outputPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elker\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -254,6 +278,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -274,14 +310,14 @@
         }
       }
     },
-    "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj": {
+    "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Infrastructure\\IdentityService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj",
-        "projectName": "PaymentService.Infrastructure",
-        "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Infrastructure\\IdentityService.Infrastructure.csproj",
+        "projectName": "IdentityService.Infrastructure",
+        "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Infrastructure\\IdentityService.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\elker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elker\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -299,11 +335,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Crosscutting\\PaymentService.Crosscutting.csproj": {
-                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Crosscutting\\PaymentService.Crosscutting.csproj"
+              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Crosscutting\\IdentityService.Crosscutting.csproj": {
+                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Crosscutting\\IdentityService.Crosscutting.csproj"
               },
-              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Domain\\PaymentService.Domain.csproj": {
-                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\PaymentService.Domain\\PaymentService.Domain.csproj"
+              "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Domain\\IdentityService.Domain.csproj": {
+                "projectPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\IdentityService.Domain\\IdentityService.Domain.csproj"
               }
             }
           }
@@ -322,6 +358,32 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

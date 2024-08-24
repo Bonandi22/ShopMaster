@@ -1,23 +1,35 @@
+using CatalogService.API.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Adicionar dependências do projeto
+builder.Services.AddProjectDependencies(builder.Configuration);
 
+// Adicionar controladores com suporte à API
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Configuração do CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+});
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configurar o pipeline HTTP
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
+app.UseCors("AllowAll");
+
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

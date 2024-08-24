@@ -7,17 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PaymentService.Crosscutting\PaymentService.Crosscutting.csproj" />
-    <ProjectReference Include="..\PaymentService.Domain\PaymentService.Domain.csproj" />
-    <ProjectReference Include="..\PaymentService.Infrastructure\PaymentService.Infrastructure.csproj" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.1.39" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.35.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Mappings\" />
-    <Folder Include="Services\" />
-    <Folder Include="UseCases\" />
+    <ProjectReference Include="..\IdentityService.Crosscutting\IdentityService.Crosscutting.csproj" />
+    <ProjectReference Include="..\IdentityService.Domain\IdentityService.Domain.csproj" />
+    <ProjectReference Include="..\IdentityService.Infrastructure\IdentityService.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

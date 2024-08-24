@@ -1,12 +1,6 @@
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\IdentityService.Application.deps.json
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\IdentityService.Application.dll
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\IdentityService.Application.pdb
-C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\PaymentService.Crosscutting.dll
-C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\PaymentService.Domain.dll
-C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\PaymentService.Infrastructure.dll
-C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\PaymentService.Crosscutting.pdb
-C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\PaymentService.Domain.pdb
-C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\PaymentService.Infrastructure.pdb
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\obj\Debug\net6.0\IdentityService.Application.csproj.AssemblyReference.cache
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\obj\Debug\net6.0\IdentityService.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\obj\Debug\net6.0\IdentityService.Application.AssemblyInfoInputs.cache
@@ -18,3 +12,9 @@ C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Applicat
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\obj\Debug\net6.0\refint\IdentityService.Application.dll
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\obj\Debug\net6.0\IdentityService.Application.pdb
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\obj\Debug\net6.0\ref\IdentityService.Application.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\IdentityService.Crosscutting.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\IdentityService.Domain.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\IdentityService.Infrastructure.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\IdentityService.Crosscutting.pdb
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\IdentityService.Domain.pdb
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\IdentityService.Application\bin\Debug\net6.0\IdentityService.Infrastructure.pdb

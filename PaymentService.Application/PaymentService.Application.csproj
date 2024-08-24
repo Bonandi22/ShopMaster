@@ -7,17 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PaymentService.Crosscutting\PaymentService.Crosscutting.csproj" />
-    <ProjectReference Include="..\PaymentService.Domain\PaymentService.Domain.csproj" />
-    <ProjectReference Include="..\PaymentService.Infrastructure\PaymentService.Infrastructure.csproj" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Mappings\" />
-    <Folder Include="Services\" />
-    <Folder Include="UseCases\" />
+    <ProjectReference Include="..\PaymentService.Crosscutting\PaymentService.Crosscutting.csproj" />
+    <ProjectReference Include="..\PaymentService.Domain\PaymentService.Domain.csproj" />
+    <ProjectReference Include="..\PaymentService.Infrastructure\PaymentService.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

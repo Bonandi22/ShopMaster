@@ -7,17 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CatalogService.Crosscutting\CatalogService.Crosscutting.csproj" />
-    <ProjectReference Include="..\CatalogService.Domain\CatalogService.Domain.csproj" />
-    <ProjectReference Include="..\CatalogService.Infrastructure\CatalogService.Infrastructure.csproj" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Mappings\" />
-    <Folder Include="Services\" />
-    <Folder Include="UseCases\" />
+    <ProjectReference Include="..\CatalogService.Crosscutting\CatalogService.Crosscutting.csproj" />
+    <ProjectReference Include="..\CatalogService.Domain\CatalogService.Domain.csproj" />
+    <ProjectReference Include="..\CatalogService.Infrastructure\CatalogService.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

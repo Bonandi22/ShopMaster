@@ -3,135 +3,137 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.API", "CatalogService.API\CatalogService.API.csproj", "{6C836FAD-0FBD-4946-9673-235FA3E4E48E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogService.API", "CatalogService.API\CatalogService.API.csproj", "{6C836FAD-0FBD-4946-9673-235FA3E4E48E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CatalogService", "CatalogService", "{031469DE-FAD4-4517-8205-27A1E67B86DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.Application", "CatalogService.Application\CatalogService.Application.csproj", "{8594DC0E-FF57-46E5-B6A2-7663246C0DC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogService.Application", "CatalogService.Application\CatalogService.Application.csproj", "{8594DC0E-FF57-46E5-B6A2-7663246C0DC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.Domain", "CatalogService.Domain\CatalogService.Domain.csproj", "{58A5D50D-E3F7-4ADA-ABEA-6CAC424E8F98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogService.Domain", "CatalogService.Domain\CatalogService.Domain.csproj", "{58A5D50D-E3F7-4ADA-ABEA-6CAC424E8F98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.Infrastructure", "CatalogService.Infrastructure\CatalogService.Infrastructure.csproj", "{AA930CE2-BB5A-4C29-99FF-BE35CCEFC053}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogService.Infrastructure", "CatalogService.Infrastructure\CatalogService.Infrastructure.csproj", "{AA930CE2-BB5A-4C29-99FF-BE35CCEFC053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.Crosscutting", "CatalogService.Crosscutting\CatalogService.Crosscutting.csproj", "{8D4EE5A6-2DC7-4BAB-8FA6-0D82C5F304B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogService.Crosscutting", "CatalogService.Crosscutting\CatalogService.Crosscutting.csproj", "{8D4EE5A6-2DC7-4BAB-8FA6-0D82C5F304B3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CatalogService.Docs", "CatalogService.Docs", "{A93C6744-AB0C-4922-A3F2-6B57292282AB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{4F3EEF0C-569C-4414-B62F-A695FD0E0511}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{A2F9B200-6172-4F3A-B301-E1DA2BB59279}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService", "OrderService", "{93345D5B-A93C-431E-AF52-9E84FC561245}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.API", "OrderService.API\OrderService.API.csproj", "{4132BB2B-0048-4C87-9C4B-8B58FFA7EDDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService.API", "OrderService.API\OrderService.API.csproj", "{4132BB2B-0048-4C87-9C4B-8B58FFA7EDDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Application", "OrderService.Application\OrderService.Application.csproj", "{65BC8437-C909-4E6B-A83E-CE292C9829E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService.Application", "OrderService.Application\OrderService.Application.csproj", "{65BC8437-C909-4E6B-A83E-CE292C9829E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Domain", "OrderService.Domain\OrderService.Domain.csproj", "{206956C1-3818-47CE-A175-5F65BD13CD40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService.Domain", "OrderService.Domain\OrderService.Domain.csproj", "{206956C1-3818-47CE-A175-5F65BD13CD40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Infrastructure", "OrderService.Infrastructure\OrderService.Infrastructure.csproj", "{FB174ED8-1594-49E7-A6C2-B122F56796FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService.Infrastructure", "OrderService.Infrastructure\OrderService.Infrastructure.csproj", "{FB174ED8-1594-49E7-A6C2-B122F56796FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Crosscutting", "OrderService.Crosscutting\OrderService.Crosscutting.csproj", "{A2E87F96-7F09-435C-9FE9-699951D89CC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService.Crosscutting", "OrderService.Crosscutting\OrderService.Crosscutting.csproj", "{A2E87F96-7F09-435C-9FE9-699951D89CC4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService.Docs", "OrderService.Docs", "{CDA62BA5-31F6-44BA-914C-8B54AFAFBC8D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentService", "PaymentService", "{E0BED057-6952-4F9A-9FAE-5EE32F6A0F5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.API", "PaymentService.API\PaymentService.API.csproj", "{AA2D38C4-5DDA-4E61-8306-9B4BB6028153}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.API", "PaymentService.API\PaymentService.API.csproj", "{AA2D38C4-5DDA-4E61-8306-9B4BB6028153}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Application", "PaymentService.Application\PaymentService.Application.csproj", "{E62EB184-F79D-428A-BE67-02D68CE4189A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Application", "PaymentService.Application\PaymentService.Application.csproj", "{E62EB184-F79D-428A-BE67-02D68CE4189A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Domain", "PaymentService.Domain\PaymentService.Domain.csproj", "{685267A2-6E10-41D8-9B60-A1CD926BCCEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Domain", "PaymentService.Domain\PaymentService.Domain.csproj", "{685267A2-6E10-41D8-9B60-A1CD926BCCEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Infrastructure", "PaymentService.Infrastructure\PaymentService.Infrastructure.csproj", "{A0FCA894-A222-4AF2-A855-0D3652AB0984}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Infrastructure", "PaymentService.Infrastructure\PaymentService.Infrastructure.csproj", "{A0FCA894-A222-4AF2-A855-0D3652AB0984}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Crosscutting", "PaymentService.Crosscutting\PaymentService.Crosscutting.csproj", "{0DC7BE03-8691-44D4-88A2-D99A0A3BF644}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService.Crosscutting", "PaymentService.Crosscutting\PaymentService.Crosscutting.csproj", "{0DC7BE03-8691-44D4-88A2-D99A0A3BF644}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentService.Docs", "PaymentService.Docs", "{F24DE2D3-47C5-4CC5-995A-014E35F6C6FA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityService", "IdentityService", "{4C9A06A5-FED7-4B16-8D1C-384ADD73E7AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.API", "IdentityService.API\IdentityService.API.csproj", "{F4D70F3A-096F-481B-8265-87662E94BBDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.API", "IdentityService.API\IdentityService.API.csproj", "{F4D70F3A-096F-481B-8265-87662E94BBDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Application", "IdentityService.Application\IdentityService.Application.csproj", "{E2BCEB5F-6193-4338-AE7A-62FE9DBA16F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.Application", "IdentityService.Application\IdentityService.Application.csproj", "{E2BCEB5F-6193-4338-AE7A-62FE9DBA16F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Domain", "IdentityService.Domain\IdentityService.Domain.csproj", "{A048A540-3688-4252-AC55-C3E1018E1078}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.Domain", "IdentityService.Domain\IdentityService.Domain.csproj", "{A048A540-3688-4252-AC55-C3E1018E1078}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Infrastructure", "IdentityService.Infrastructure\IdentityService.Infrastructure.csproj", "{2DD69A63-10AD-434C-AACD-4E1EC634FAB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.Infrastructure", "IdentityService.Infrastructure\IdentityService.Infrastructure.csproj", "{2DD69A63-10AD-434C-AACD-4E1EC634FAB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityService.Crosscutting", "IdentityService.Crosscutting\IdentityService.Crosscutting.csproj", "{CEDE6DF0-3081-4503-9344-977EC9678249}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService.Crosscutting", "IdentityService.Crosscutting\IdentityService.Crosscutting.csproj", "{CEDE6DF0-3081-4503-9344-977EC9678249}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityService.Docs", "IdentityService.Docs", "{B1AA07D9-5034-4BB2-9B90-0F5EB2619F9F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShippingService", "ShippingService", "{33E36F60-925F-49E9-9312-FDE3BF7DE48B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingService.API", "ShippingService.API\ShippingService.API.csproj", "{2945AC59-BCAB-4178-B5A9-8D35E76699B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShippingService.API", "ShippingService.API\ShippingService.API.csproj", "{2945AC59-BCAB-4178-B5A9-8D35E76699B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingService.Application", "ShippingService.Application\ShippingService.Application.csproj", "{FD76BF44-DF2B-444E-940C-A7213C6F6AE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShippingService.Application", "ShippingService.Application\ShippingService.Application.csproj", "{FD76BF44-DF2B-444E-940C-A7213C6F6AE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingService.Domain", "ShippingService.Domain\ShippingService.Domain.csproj", "{A07F2598-C0D7-4A00-9685-F2E510AC7516}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShippingService.Domain", "ShippingService.Domain\ShippingService.Domain.csproj", "{A07F2598-C0D7-4A00-9685-F2E510AC7516}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingService.Infrastructure", "ShippingService.Infrastructure\ShippingService.Infrastructure.csproj", "{4BA81942-DDC6-4546-8E07-82F26959CCF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShippingService.Infrastructure", "ShippingService.Infrastructure\ShippingService.Infrastructure.csproj", "{4BA81942-DDC6-4546-8E07-82F26959CCF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingService.Crosscutting", "ShippingService.Crosscutting\ShippingService.Crosscutting.csproj", "{9D39062A-CEB1-42F6-8DC5-FB95421A50DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShippingService.Crosscutting", "ShippingService.Crosscutting\ShippingService.Crosscutting.csproj", "{9D39062A-CEB1-42F6-8DC5-FB95421A50DC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShippingService.Docs", "ShippingService.Docs", "{6A3DC2E7-32BF-4932-8B99-C0DCBE895313}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationService", "NotificationService", "{EDFDB297-AC7D-4450-924A-0BDE1E437260}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.API", "NotificationService.API\NotificationService.API.csproj", "{A6A3B3A8-658E-4A5B-801A-168B778A376D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService.API", "NotificationService.API\NotificationService.API.csproj", "{A6A3B3A8-658E-4A5B-801A-168B778A376D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Application", "NotificationService.Application\NotificationService.Application.csproj", "{C6D903F9-E0EC-460C-A124-8FEBA39EBA6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService.Application", "NotificationService.Application\NotificationService.Application.csproj", "{C6D903F9-E0EC-460C-A124-8FEBA39EBA6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Domain", "NotificationService.Domain\NotificationService.Domain.csproj", "{26BFFAAF-62C5-49AC-BEC1-98561DFC8361}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService.Domain", "NotificationService.Domain\NotificationService.Domain.csproj", "{26BFFAAF-62C5-49AC-BEC1-98561DFC8361}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Infrastructure", "NotificationService.Infrastructure\NotificationService.Infrastructure.csproj", "{E6CD4BF7-7E8B-4267-A348-3BDE1E955A35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService.Infrastructure", "NotificationService.Infrastructure\NotificationService.Infrastructure.csproj", "{E6CD4BF7-7E8B-4267-A348-3BDE1E955A35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Crosscutting", "NotificationService.Crosscutting\NotificationService.Crosscutting.csproj", "{E15CB31A-F3D1-4D6D-BBD5-499C2CF0559A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService.Crosscutting", "NotificationService.Crosscutting\NotificationService.Crosscutting.csproj", "{E15CB31A-F3D1-4D6D-BBD5-499C2CF0559A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationService.Docs", "NotificationService.Docs", "{1B1A1BE8-84B7-4B22-BC65-98DE132A2653}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AnalyticsService", "AnalyticsService", "{8BB2D777-D002-456C-9FA4-2BF1074A5FF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticsService.API", "AnalyticsService.API\AnalyticsService.API.csproj", "{0F3AB755-65DD-4EC5-B979-5518CBA9F556}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnalyticsService.API", "AnalyticsService.API\AnalyticsService.API.csproj", "{0F3AB755-65DD-4EC5-B979-5518CBA9F556}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticsService.Application", "AnalyticsService.Application\AnalyticsService.Application.csproj", "{DD60B28E-7C9D-4200-A617-A7770B8E2DB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnalyticsService.Application", "AnalyticsService.Application\AnalyticsService.Application.csproj", "{DD60B28E-7C9D-4200-A617-A7770B8E2DB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticsService.Domain", "AnalyticsService.Domain\AnalyticsService.Domain.csproj", "{8FA16F71-C78B-4216-ABBA-41CDBB95C9CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnalyticsService.Domain", "AnalyticsService.Domain\AnalyticsService.Domain.csproj", "{8FA16F71-C78B-4216-ABBA-41CDBB95C9CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticsService.Infrastructure", "AnalyticsService.Infrastructure\AnalyticsService.Infrastructure.csproj", "{E93D7BE8-92D7-4DA7-8FFA-E05A9CB2FF6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnalyticsService.Infrastructure", "AnalyticsService.Infrastructure\AnalyticsService.Infrastructure.csproj", "{E93D7BE8-92D7-4DA7-8FFA-E05A9CB2FF6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticsService.Crosscutting", "AnalyticsService.Crosscutting\AnalyticsService.Crosscutting.csproj", "{2766F64F-C37D-498C-8F58-3CCA5459D2DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnalyticsService.Crosscutting", "AnalyticsService.Crosscutting\AnalyticsService.Crosscutting.csproj", "{2766F64F-C37D-498C-8F58-3CCA5459D2DB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AnalyticsService.Docs", "AnalyticsService.Docs", "{EB4361C7-9C66-4E9C-A65C-B51B3AA29C9D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerService", "CustomerService", "{84CE3D14-8C00-47ED-9CE5-6876C8305281}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService.API", "CustomerService.API\CustomerService.API.csproj", "{13DD7403-39E0-4188-9CE3-62DD5D2A6F45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerService.API", "CustomerService.API\CustomerService.API.csproj", "{13DD7403-39E0-4188-9CE3-62DD5D2A6F45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService.Application", "CustomerService.Application\CustomerService.Application.csproj", "{69C24A66-F115-4D88-9721-B6138D697388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerService.Application", "CustomerService.Application\CustomerService.Application.csproj", "{69C24A66-F115-4D88-9721-B6138D697388}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService.Domain", "CustomerService.Domain\CustomerService.Domain.csproj", "{D0427533-D5ED-4A88-BA93-526B8A58BB4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerService.Domain", "CustomerService.Domain\CustomerService.Domain.csproj", "{D0427533-D5ED-4A88-BA93-526B8A58BB4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService.Infrastructure", "CustomerService.Infrastructure\CustomerService.Infrastructure.csproj", "{C74F2A2D-73A4-406C-B3C8-49E002A2CA57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerService.Infrastructure", "CustomerService.Infrastructure\CustomerService.Infrastructure.csproj", "{C74F2A2D-73A4-406C-B3C8-49E002A2CA57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService.Crosscutting", "CustomerService.Crosscutting\CustomerService.Crosscutting.csproj", "{9C2330ED-5D20-4274-9670-10240935728F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerService.Crosscutting", "CustomerService.Crosscutting\CustomerService.Crosscutting.csproj", "{9C2330ED-5D20-4274-9670-10240935728F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerService.Docs", "CustomerService.Docs", "{35EF130E-20A7-465C-9C32-B4A08F872CF8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PromotionService", "PromotionService", "{25A0E28C-DA49-4650-B965-5A9E4BE98902}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionService.API", "PromotionService.API\PromotionService.API.csproj", "{71723DC0-2FF5-4494-AF25-AABC079811A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PromotionService.API", "PromotionService.API\PromotionService.API.csproj", "{71723DC0-2FF5-4494-AF25-AABC079811A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionService.Application", "PromotionService.Application\PromotionService.Application.csproj", "{84501A38-8B01-414A-AA7D-851547390F19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PromotionService.Application", "PromotionService.Application\PromotionService.Application.csproj", "{84501A38-8B01-414A-AA7D-851547390F19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionService.Domain", "PromotionService.Domain\PromotionService.Domain.csproj", "{DB45E9B2-A514-4E7E-978E-7B708167B579}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PromotionService.Domain", "PromotionService.Domain\PromotionService.Domain.csproj", "{DB45E9B2-A514-4E7E-978E-7B708167B579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionService.Infrastructure", "PromotionService.Infrastructure\PromotionService.Infrastructure.csproj", "{6B348849-5B76-47BB-8B7D-FCA0FD44D8AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PromotionService.Infrastructure", "PromotionService.Infrastructure\PromotionService.Infrastructure.csproj", "{6B348849-5B76-47BB-8B7D-FCA0FD44D8AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromotionService.Crosscutting", "PromotionService.Crosscutting\PromotionService.Crosscutting.csproj", "{2038466A-CC55-4ABE-B85F-9BD6EF937BCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PromotionService.Crosscutting", "PromotionService.Crosscutting\PromotionService.Crosscutting.csproj", "{2038466A-CC55-4ABE-B85F-9BD6EF937BCE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PromotionService.Docs", "PromotionService.Docs", "{63561682-62A1-46CF-9345-E328A0ECA8A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{2C8112C9-FC36-4117-9997-86F6E5B01A3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{7BF74D21-B3AE-429C-A809-D222D7CCD6B4}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ShopmasterApp", "ShopmasterApp\ShopmasterApp.esproj", "{4F636965-9794-4DCC-B483-A2B3E0694CC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,10 +161,6 @@ Global
 		{8D4EE5A6-2DC7-4BAB-8FA6-0D82C5F304B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D4EE5A6-2DC7-4BAB-8FA6-0D82C5F304B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D4EE5A6-2DC7-4BAB-8FA6-0D82C5F304B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A2F9B200-6172-4F3A-B301-E1DA2BB59279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2F9B200-6172-4F3A-B301-E1DA2BB59279}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2F9B200-6172-4F3A-B301-E1DA2BB59279}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2F9B200-6172-4F3A-B301-E1DA2BB59279}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4132BB2B-0048-4C87-9C4B-8B58FFA7EDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4132BB2B-0048-4C87-9C4B-8B58FFA7EDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4132BB2B-0048-4C87-9C4B-8B58FFA7EDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -323,66 +321,81 @@ Global
 		{2038466A-CC55-4ABE-B85F-9BD6EF937BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2038466A-CC55-4ABE-B85F-9BD6EF937BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2038466A-CC55-4ABE-B85F-9BD6EF937BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F636965-9794-4DCC-B483-A2B3E0694CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F636965-9794-4DCC-B483-A2B3E0694CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F636965-9794-4DCC-B483-A2B3E0694CC9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4F636965-9794-4DCC-B483-A2B3E0694CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F636965-9794-4DCC-B483-A2B3E0694CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F636965-9794-4DCC-B483-A2B3E0694CC9}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6C836FAD-0FBD-4946-9673-235FA3E4E48E} = {031469DE-FAD4-4517-8205-27A1E67B86DC}
+		{031469DE-FAD4-4517-8205-27A1E67B86DC} = {2C8112C9-FC36-4117-9997-86F6E5B01A3F}
 		{8594DC0E-FF57-46E5-B6A2-7663246C0DC4} = {031469DE-FAD4-4517-8205-27A1E67B86DC}
 		{58A5D50D-E3F7-4ADA-ABEA-6CAC424E8F98} = {031469DE-FAD4-4517-8205-27A1E67B86DC}
 		{AA930CE2-BB5A-4C29-99FF-BE35CCEFC053} = {031469DE-FAD4-4517-8205-27A1E67B86DC}
 		{8D4EE5A6-2DC7-4BAB-8FA6-0D82C5F304B3} = {031469DE-FAD4-4517-8205-27A1E67B86DC}
 		{A93C6744-AB0C-4922-A3F2-6B57292282AB} = {031469DE-FAD4-4517-8205-27A1E67B86DC}
-		{A2F9B200-6172-4F3A-B301-E1DA2BB59279} = {4F3EEF0C-569C-4414-B62F-A695FD0E0511}
+		{93345D5B-A93C-431E-AF52-9E84FC561245} = {2C8112C9-FC36-4117-9997-86F6E5B01A3F}
 		{4132BB2B-0048-4C87-9C4B-8B58FFA7EDDA} = {93345D5B-A93C-431E-AF52-9E84FC561245}
 		{65BC8437-C909-4E6B-A83E-CE292C9829E9} = {93345D5B-A93C-431E-AF52-9E84FC561245}
 		{206956C1-3818-47CE-A175-5F65BD13CD40} = {93345D5B-A93C-431E-AF52-9E84FC561245}
 		{FB174ED8-1594-49E7-A6C2-B122F56796FB} = {93345D5B-A93C-431E-AF52-9E84FC561245}
 		{A2E87F96-7F09-435C-9FE9-699951D89CC4} = {93345D5B-A93C-431E-AF52-9E84FC561245}
 		{CDA62BA5-31F6-44BA-914C-8B54AFAFBC8D} = {93345D5B-A93C-431E-AF52-9E84FC561245}
+		{E0BED057-6952-4F9A-9FAE-5EE32F6A0F5C} = {2C8112C9-FC36-4117-9997-86F6E5B01A3F}
 		{AA2D38C4-5DDA-4E61-8306-9B4BB6028153} = {E0BED057-6952-4F9A-9FAE-5EE32F6A0F5C}
 		{E62EB184-F79D-428A-BE67-02D68CE4189A} = {E0BED057-6952-4F9A-9FAE-5EE32F6A0F5C}
 		{685267A2-6E10-41D8-9B60-A1CD926BCCEA} = {E0BED057-6952-4F9A-9FAE-5EE32F6A0F5C}
 		{A0FCA894-A222-4AF2-A855-0D3652AB0984} = {E0BED057-6952-4F9A-9FAE-5EE32F6A0F5C}
 		{0DC7BE03-8691-44D4-88A2-D99A0A3BF644} = {E0BED057-6952-4F9A-9FAE-5EE32F6A0F5C}
 		{F24DE2D3-47C5-4CC5-995A-014E35F6C6FA} = {E0BED057-6952-4F9A-9FAE-5EE32F6A0F5C}
+		{4C9A06A5-FED7-4B16-8D1C-384ADD73E7AC} = {2C8112C9-FC36-4117-9997-86F6E5B01A3F}
 		{F4D70F3A-096F-481B-8265-87662E94BBDD} = {4C9A06A5-FED7-4B16-8D1C-384ADD73E7AC}
 		{E2BCEB5F-6193-4338-AE7A-62FE9DBA16F4} = {4C9A06A5-FED7-4B16-8D1C-384ADD73E7AC}
 		{A048A540-3688-4252-AC55-C3E1018E1078} = {4C9A06A5-FED7-4B16-8D1C-384ADD73E7AC}
 		{2DD69A63-10AD-434C-AACD-4E1EC634FAB6} = {4C9A06A5-FED7-4B16-8D1C-384ADD73E7AC}
 		{CEDE6DF0-3081-4503-9344-977EC9678249} = {4C9A06A5-FED7-4B16-8D1C-384ADD73E7AC}
 		{B1AA07D9-5034-4BB2-9B90-0F5EB2619F9F} = {4C9A06A5-FED7-4B16-8D1C-384ADD73E7AC}
+		{33E36F60-925F-49E9-9312-FDE3BF7DE48B} = {2C8112C9-FC36-4117-9997-86F6E5B01A3F}
 		{2945AC59-BCAB-4178-B5A9-8D35E76699B8} = {33E36F60-925F-49E9-9312-FDE3BF7DE48B}
 		{FD76BF44-DF2B-444E-940C-A7213C6F6AE3} = {33E36F60-925F-49E9-9312-FDE3BF7DE48B}
 		{A07F2598-C0D7-4A00-9685-F2E510AC7516} = {33E36F60-925F-49E9-9312-FDE3BF7DE48B}
 		{4BA81942-DDC6-4546-8E07-82F26959CCF3} = {33E36F60-925F-49E9-9312-FDE3BF7DE48B}
 		{9D39062A-CEB1-42F6-8DC5-FB95421A50DC} = {33E36F60-925F-49E9-9312-FDE3BF7DE48B}
 		{6A3DC2E7-32BF-4932-8B99-C0DCBE895313} = {33E36F60-925F-49E9-9312-FDE3BF7DE48B}
+		{EDFDB297-AC7D-4450-924A-0BDE1E437260} = {2C8112C9-FC36-4117-9997-86F6E5B01A3F}
 		{A6A3B3A8-658E-4A5B-801A-168B778A376D} = {EDFDB297-AC7D-4450-924A-0BDE1E437260}
 		{C6D903F9-E0EC-460C-A124-8FEBA39EBA6E} = {EDFDB297-AC7D-4450-924A-0BDE1E437260}
 		{26BFFAAF-62C5-49AC-BEC1-98561DFC8361} = {EDFDB297-AC7D-4450-924A-0BDE1E437260}
 		{E6CD4BF7-7E8B-4267-A348-3BDE1E955A35} = {EDFDB297-AC7D-4450-924A-0BDE1E437260}
 		{E15CB31A-F3D1-4D6D-BBD5-499C2CF0559A} = {EDFDB297-AC7D-4450-924A-0BDE1E437260}
 		{1B1A1BE8-84B7-4B22-BC65-98DE132A2653} = {EDFDB297-AC7D-4450-924A-0BDE1E437260}
+		{8BB2D777-D002-456C-9FA4-2BF1074A5FF7} = {2C8112C9-FC36-4117-9997-86F6E5B01A3F}
 		{0F3AB755-65DD-4EC5-B979-5518CBA9F556} = {8BB2D777-D002-456C-9FA4-2BF1074A5FF7}
 		{DD60B28E-7C9D-4200-A617-A7770B8E2DB9} = {8BB2D777-D002-456C-9FA4-2BF1074A5FF7}
 		{8FA16F71-C78B-4216-ABBA-41CDBB95C9CC} = {8BB2D777-D002-456C-9FA4-2BF1074A5FF7}
 		{E93D7BE8-92D7-4DA7-8FFA-E05A9CB2FF6C} = {8BB2D777-D002-456C-9FA4-2BF1074A5FF7}
 		{2766F64F-C37D-498C-8F58-3CCA5459D2DB} = {8BB2D777-D002-456C-9FA4-2BF1074A5FF7}
 		{EB4361C7-9C66-4E9C-A65C-B51B3AA29C9D} = {8BB2D777-D002-456C-9FA4-2BF1074A5FF7}
+		{84CE3D14-8C00-47ED-9CE5-6876C8305281} = {2C8112C9-FC36-4117-9997-86F6E5B01A3F}
 		{13DD7403-39E0-4188-9CE3-62DD5D2A6F45} = {84CE3D14-8C00-47ED-9CE5-6876C8305281}
 		{69C24A66-F115-4D88-9721-B6138D697388} = {84CE3D14-8C00-47ED-9CE5-6876C8305281}
 		{D0427533-D5ED-4A88-BA93-526B8A58BB4D} = {84CE3D14-8C00-47ED-9CE5-6876C8305281}
 		{C74F2A2D-73A4-406C-B3C8-49E002A2CA57} = {84CE3D14-8C00-47ED-9CE5-6876C8305281}
 		{9C2330ED-5D20-4274-9670-10240935728F} = {84CE3D14-8C00-47ED-9CE5-6876C8305281}
 		{35EF130E-20A7-465C-9C32-B4A08F872CF8} = {84CE3D14-8C00-47ED-9CE5-6876C8305281}
+		{25A0E28C-DA49-4650-B965-5A9E4BE98902} = {2C8112C9-FC36-4117-9997-86F6E5B01A3F}
 		{71723DC0-2FF5-4494-AF25-AABC079811A4} = {25A0E28C-DA49-4650-B965-5A9E4BE98902}
 		{84501A38-8B01-414A-AA7D-851547390F19} = {25A0E28C-DA49-4650-B965-5A9E4BE98902}
 		{DB45E9B2-A514-4E7E-978E-7B708167B579} = {25A0E28C-DA49-4650-B965-5A9E4BE98902}
 		{6B348849-5B76-47BB-8B7D-FCA0FD44D8AD} = {25A0E28C-DA49-4650-B965-5A9E4BE98902}
 		{2038466A-CC55-4ABE-B85F-9BD6EF937BCE} = {25A0E28C-DA49-4650-B965-5A9E4BE98902}
 		{63561682-62A1-46CF-9345-E328A0ECA8A4} = {25A0E28C-DA49-4650-B965-5A9E4BE98902}
+		{4F636965-9794-4DCC-B483-A2B3E0694CC9} = {7BF74D21-B3AE-429C-A809-D222D7CCD6B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {280DF381-A128-472C-AB64-25800E8F26DD}

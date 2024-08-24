@@ -1,0 +1,11 @@
+<form (ngSubmit)="onRegister()">
+  <div>
+    <label for="userName">Username:</label>
+    <input id="userName" type="text" [(ngModel)]="userName" name="userName" required />
+  </div>
+  <div>
+    <label for="password">Password:</label>
+    <input id="password" type="password" [(ngModel)]="password" name="password" required />
+  </div>
+  <button type="submit">Register</button>
+</form>

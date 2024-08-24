@@ -16,3 +16,5 @@ C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Infrastr
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Infrastructure\obj\Debug\net6.0\refint\CustomerService.Infrastructure.dll
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Infrastructure\obj\Debug\net6.0\CustomerService.Infrastructure.pdb
 C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Infrastructure\obj\Debug\net6.0\ref\CustomerService.Infrastructure.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Infrastructure\bin\Debug\net6.0\CustomerService.Infrastructure.runtimeconfig.json
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\CustomerService.Infrastructure\obj\Debug\net6.0\CustomerService.Infrastructure.genruntimeconfig.cache
