@@ -1,0 +1,12 @@
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\ShippingService.Crosscutting\bin\Debug\net6.0\ShippingService.Crosscutting.deps.json
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\ShippingService.Crosscutting\bin\Debug\net6.0\ShippingService.Crosscutting.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\ShippingService.Crosscutting\bin\Debug\net6.0\ShippingService.Crosscutting.pdb
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\ShippingService.Crosscutting\obj\Debug\net6.0\ShippingService.Crosscutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\ShippingService.Crosscutting\obj\Debug\net6.0\ShippingService.Crosscutting.AssemblyInfoInputs.cache
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\ShippingService.Crosscutting\obj\Debug\net6.0\ShippingService.Crosscutting.AssemblyInfo.cs
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\ShippingService.Crosscutting\obj\Debug\net6.0\ShippingService.Crosscutting.csproj.CoreCompileInputs.cache
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\ShippingService.Crosscutting\obj\Debug\net6.0\ShippingService.Crosscutting.sourcelink.json
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\ShippingService.Crosscutting\obj\Debug\net6.0\ShippingService.Crosscutting.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\ShippingService.Crosscutting\obj\Debug\net6.0\refint\ShippingService.Crosscutting.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\ShippingService.Crosscutting\obj\Debug\net6.0\ShippingService.Crosscutting.pdb
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\ShippingService.Crosscutting\obj\Debug\net6.0\ref\ShippingService.Crosscutting.dll

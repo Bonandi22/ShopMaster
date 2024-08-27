@@ -2,8 +2,7 @@
 
 namespace CatalogService.Domain.Interfaces
 {
-    public interface IProductRepository : IBaseRepository<Product, Guid>
+    public interface IProductRepository : IBaseRepository<Product, int>
     {
-        // Aqui você pode definir métodos específicos do Product, se necessário
     }
 }

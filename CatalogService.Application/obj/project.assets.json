@@ -18,6 +18,23 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Features/3.1.32": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.32",
+          "System.IO.Pipelines": "4.7.5"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore/6.0.33": {
         "type": "package",
         "dependencies": {
@@ -311,6 +328,19 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "System.IO.Pipelines/4.7.5": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
@@ -344,6 +374,9 @@
       "CatalogService.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "3.1.32"
+        },
         "compile": {
           "bin/placeholder/CatalogService.Domain.dll": {}
         },
@@ -383,6 +416,23 @@
         "icon.png",
         "lib/net6.0/AutoMapper.dll",
         "lib/net6.0/AutoMapper.xml"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/3.1.32": {
+      "sha512": "uf8Cae8ThkSWPqzRD1HyBzGjd3HbJzw4HDPtMRv2sMmJCDBkGxMIc3gGFP09VLPzt5bHRv82TNPfOYFsMRhr8Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/3.1.32",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.3.1.32.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore/6.0.33": {
@@ -759,6 +809,34 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.IO.Pipelines/4.7.5": {
+      "sha512": "iqGBxw9zqxHK4bzwiYMYGYnaKK1OBQkLGwqqN/+kkj1lQVo+jEaEntOCL4XztOHjpp+ANYQ4UPKNUeeQmFK3mQ==",
+      "type": "package",
+      "path": "system.io.pipelines/4.7.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.IO.Pipelines.dll",
+        "lib/net461/System.IO.Pipelines.xml",
+        "lib/netcoreapp3.0/System.IO.Pipelines.dll",
+        "lib/netcoreapp3.0/System.IO.Pipelines.xml",
+        "lib/netstandard1.3/System.IO.Pipelines.dll",
+        "lib/netstandard1.3/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "ref/net461/System.IO.Pipelines.dll",
+        "ref/net461/System.IO.Pipelines.xml",
+        "ref/netcoreapp2.0/System.IO.Pipelines.dll",
+        "ref/netcoreapp2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.4.7.5.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "type": "package",
@@ -805,7 +883,8 @@
       "AutoMapper >= 13.0.1",
       "CatalogService.Crosscutting >= 1.0.0",
       "CatalogService.Domain >= 1.0.0",
-      "CatalogService.Infrastructure >= 1.0.0"
+      "CatalogService.Infrastructure >= 1.0.0",
+      "Microsoft.AspNetCore.Http.Features >= 3.1.32"
     ]
   },
   "packageFolders": {
@@ -866,6 +945,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "Microsoft.AspNetCore.Http.Features": {
+            "target": "Package",
+            "version": "[3.1.32, )"
           }
         },
         "imports": [

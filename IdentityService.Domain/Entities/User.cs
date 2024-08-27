@@ -11,12 +11,7 @@ namespace IdentityService.Domain.Entities
 {
     public class User : IdentityUser<Guid>
     {
-        [Key]
-        public Guid Id { get; set; }
-
-        public string? UserName { get; set; }
-        public string? Email { get; set; }
-        public string? PasswordHash { get; set; }
-        public ICollection<Role>? Roles { get; set; }
+        // Additional properties specific to your application
+        public ICollection<UserRole> UserRoles { get; set; }
     }
 }

@@ -1,0 +1,12 @@
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\PaymentService.Crosscutting\bin\Debug\net6.0\PaymentService.Crosscutting.deps.json
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\PaymentService.Crosscutting\bin\Debug\net6.0\PaymentService.Crosscutting.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\PaymentService.Crosscutting\bin\Debug\net6.0\PaymentService.Crosscutting.pdb
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\PaymentService.Crosscutting\obj\Debug\net6.0\PaymentService.Crosscutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\PaymentService.Crosscutting\obj\Debug\net6.0\PaymentService.Crosscutting.AssemblyInfoInputs.cache
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\PaymentService.Crosscutting\obj\Debug\net6.0\PaymentService.Crosscutting.AssemblyInfo.cs
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\PaymentService.Crosscutting\obj\Debug\net6.0\PaymentService.Crosscutting.csproj.CoreCompileInputs.cache
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\PaymentService.Crosscutting\obj\Debug\net6.0\PaymentService.Crosscutting.sourcelink.json
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\PaymentService.Crosscutting\obj\Debug\net6.0\PaymentService.Crosscutting.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\PaymentService.Crosscutting\obj\Debug\net6.0\refint\PaymentService.Crosscutting.dll
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\PaymentService.Crosscutting\obj\Debug\net6.0\PaymentService.Crosscutting.pdb
+C:\Users\elker\Documents\Projetos\ShopMaster\ShopMaster\PaymentService.Crosscutting\obj\Debug\net6.0\ref\PaymentService.Crosscutting.dll

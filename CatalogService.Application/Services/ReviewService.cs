@@ -3,24 +3,21 @@ using CatalogService.Application.DTOs;
 using CatalogService.Application.Interfaces;
 using CatalogService.Domain.Entities;
 using CatalogService.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace CatalogService.Application.Services
 {
-    public class ReviewService : IBaseService<ReviewDto, Guid>, IReviewService
+    public class ReviewService : IReviewService
     {
-        private readonly IBaseRepository<Review, Guid> _reviewRepository;
+        private readonly IBaseRepository<Review, int> _reviewRepository;
         private readonly IMapper _mapper;
 
-        public ReviewService(IBaseRepository<Review, Guid> reviewRepository, IMapper mapper)
+        public ReviewService(IBaseRepository<Review, int> reviewRepository, IMapper mapper)
         {
             _reviewRepository = reviewRepository;
             _mapper = mapper;
         }
 
-        public async Task<ReviewDto> GetByIdAsync(Guid id)
+        public async Task<ReviewDto> GetByIdAsync(int id)
         {
             try
             {
@@ -96,7 +93,7 @@ namespace CatalogService.Application.Services
             }
         }
 
-        public async Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(int id)
         {
             try
             {

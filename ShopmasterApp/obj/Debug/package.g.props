@@ -19,7 +19,11 @@
     <PackageJsonDependenciesAngularPlatformBrowser Condition="$(PackageJsonDependenciesAngularPlatformBrowser) == ''">^18.2.0</PackageJsonDependenciesAngularPlatformBrowser>
     <PackageJsonDependenciesAngularPlatformBrowserDynamic Condition="$(PackageJsonDependenciesAngularPlatformBrowserDynamic) == ''">^18.2.0</PackageJsonDependenciesAngularPlatformBrowserDynamic>
     <PackageJsonDependenciesAngularRouter Condition="$(PackageJsonDependenciesAngularRouter) == ''">^18.2.0</PackageJsonDependenciesAngularRouter>
+    <PackageJsonDependenciesCoreuiAngular Condition="$(PackageJsonDependenciesCoreuiAngular) == ''">~5.2.15</PackageJsonDependenciesCoreuiAngular>
+    <PackageJsonDependenciesCoreuiCoreui Condition="$(PackageJsonDependenciesCoreuiCoreui) == ''">^5.1.2</PackageJsonDependenciesCoreuiCoreui>
+    <PackageJsonDependenciesCoreuiIconsAngular Condition="$(PackageJsonDependenciesCoreuiIconsAngular) == ''">~5.2.15</PackageJsonDependenciesCoreuiIconsAngular>
     <PackageJsonDependenciesFortawesomeFontawesomeFree Condition="$(PackageJsonDependenciesFortawesomeFontawesomeFree) == ''">^6.6.0</PackageJsonDependenciesFortawesomeFontawesomeFree>
+    <PackageJsonDependenciesPopperjsCore Condition="$(PackageJsonDependenciesPopperjsCore) == ''">~2.11.8</PackageJsonDependenciesPopperjsCore>
     <PackageJsonDependenciesBootstrap Condition="$(PackageJsonDependenciesBootstrap) == ''">^5.3.3</PackageJsonDependenciesBootstrap>
     <PackageJsonDependenciesJestEditorSupport Condition="$(PackageJsonDependenciesJestEditorSupport) == ''">*</PackageJsonDependenciesJestEditorSupport>
     <PackageJsonDependenciesJquery Condition="$(PackageJsonDependenciesJquery) == ''">^3.7.1</PackageJsonDependenciesJquery>

@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F636965-9794-4DCC-B483-A2B3E0694CC9}|ShopmasterApp\\ShopmasterApp.esproj|c:\\users\\elker\\documents\\projetos\\shopmaster\\shopmaster\\shopmasterapp\\src\\app\\shared\\components\\home\\home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F636965-9794-4DCC-B483-A2B3E0694CC9}|ShopmasterApp\\ShopmasterApp.esproj|solutionrelative:shopmasterapp\\src\\app\\shared\\components\\home\\home.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F636965-9794-4DCC-B483-A2B3E0694CC9}|ShopmasterApp\\ShopmasterApp.esproj|c:\\users\\elker\\documents\\projetos\\shopmaster\\shopmaster\\shopmasterapp\\src\\app\\features\\catalog\\components\\product-list\\product-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F636965-9794-4DCC-B483-A2B3E0694CC9}|ShopmasterApp\\ShopmasterApp.esproj|solutionrelative:shopmasterapp\\src\\app\\features\\catalog\\components\\product-list\\product-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "product-list.component.html",
+              "DocumentMoniker": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShopmasterApp\\src\\app\\features\\catalog\\components\\product-list\\product-list.component.html",
+              "RelativeDocumentMoniker": "ShopmasterApp\\src\\app\\features\\catalog\\components\\product-list\\product-list.component.html",
+              "ToolTip": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShopmasterApp\\src\\app\\features\\catalog\\components\\product-list\\product-list.component.html",
+              "RelativeToolTip": "ShopmasterApp\\src\\app\\features\\catalog\\components\\product-list\\product-list.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-27T10:36:18.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "home.component.html",
+              "DocumentMoniker": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShopmasterApp\\src\\app\\shared\\components\\home\\home.component.html",
+              "RelativeDocumentMoniker": "ShopmasterApp\\src\\app\\shared\\components\\home\\home.component.html",
+              "ToolTip": "C:\\Users\\elker\\Documents\\Projetos\\ShopMaster\\ShopMaster\\ShopmasterApp\\src\\app\\shared\\components\\home\\home.component.html",
+              "RelativeToolTip": "ShopmasterApp\\src\\app\\shared\\components\\home\\home.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-27T10:35:39.394Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

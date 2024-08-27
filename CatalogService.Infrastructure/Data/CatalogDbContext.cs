@@ -18,12 +18,5 @@ namespace CatalogService.Infrastructure.Data
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Review> Reviews { get; set; }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-
-            // Configurações adicionais do modelo podem ser feitas aqui, por exemplo:
-        }
     }
 }

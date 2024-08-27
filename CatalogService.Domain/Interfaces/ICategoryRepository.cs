@@ -2,8 +2,8 @@
 
 namespace CatalogService.Domain.Interfaces
 {
-    public interface ICategoryRepository : IBaseRepository<Category, Guid>
+    public interface ICategoryRepository : IBaseRepository<Category, int>
     {
-        // Métodos específicos de Category, se necessário
+        Task<bool> ExistsAsync(int categoryId);
     }
 }

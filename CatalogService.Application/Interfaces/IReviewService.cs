@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CatalogService.Application.Interfaces
 {
-    public interface IReviewService : IBaseService<ReviewDto, Guid>
+    public interface IReviewService : IBaseService<ReviewDto, int>
     {
     }
 }

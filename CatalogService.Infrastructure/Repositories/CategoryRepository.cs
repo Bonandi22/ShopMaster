@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CatalogService.Infrastructure.Repositories
 {
-    public class CategoryRepository : IBaseRepository<Category, Guid>, ICategoryRepository
+    public class CategoryRepository : ICategoryRepository
     {
         private readonly CatalogDbContext _context;
 
@@ -25,7 +25,7 @@ namespace CatalogService.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(int id)
         {
             var category = await _context.Categories.FindAsync(id);
             if (category == null) throw new KeyNotFoundException($"Category with ID {id} not found.");
@@ -39,7 +39,7 @@ namespace CatalogService.Infrastructure.Repositories
             return await _context.Categories.AsNoTracking().ToListAsync();
         }
 
-        public async Task<Category> GetByIdAsync(Guid id)
+        public async Task<Category> GetByIdAsync(int id)
         {
             var category = await _context.Categories.AsNoTracking().FirstOrDefaultAsync(c => c.Id == id);
             if (category == null) throw new KeyNotFoundException($"Category with ID {id} not found.");
@@ -56,6 +56,11 @@ namespace CatalogService.Infrastructure.Repositories
 
             _context.Entry(existingCategory).CurrentValues.SetValues(entity);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<bool> ExistsAsync(int categoryId)
+        {
+            return await _context.Categories.AnyAsync(c => c.Id == categoryId);
         }
     }
 }

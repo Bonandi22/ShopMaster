@@ -28,7 +28,7 @@ namespace CatalogService.API.Controllers
 
         // GET: api/reviews/{id}
         [HttpGet("{id}")]
-        public async Task<ActionResult<ReviewDto>> GetById(Guid id)
+        public async Task<ActionResult<ReviewDto>> GetById(int id)
         {
             var review = await _reviewService.GetByIdAsync(id);
             if (review == null)
@@ -53,7 +53,7 @@ namespace CatalogService.API.Controllers
 
         // PUT: api/reviews/{id}
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update(Guid id, [FromBody] ReviewDto reviewDto)
+        public async Task<ActionResult> Update(int id, [FromBody] ReviewDto reviewDto)
         {
             if (id != reviewDto.Id)
             {
@@ -72,7 +72,7 @@ namespace CatalogService.API.Controllers
 
         // DELETE: api/reviews/{id}
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(Guid id)
+        public async Task<ActionResult> Delete(int id)
         {
             var review = await _reviewService.GetByIdAsync(id);
             if (review == null)

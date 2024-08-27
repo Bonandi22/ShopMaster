@@ -5,6 +5,14 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { CatalogModule } from '../features/catalog/catalog.module';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
+import { AvatarComponent, TextColorDirective } from '@coreui/angular';
+import { MatIconModule } from '@angular/material/icon';
+
+
+
 
 @NgModule({
   declarations: [
@@ -15,12 +23,21 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    CatalogModule,
+    MatButtonModule,
+    MatMenuModule,
+    TextColorDirective,
+    AvatarComponent,
+    MatIconModule
+
+
   ],
   exports: [
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NavbarComponent
   ]
 })
 export class SharedModule { }

@@ -21,9 +21,9 @@ namespace CatalogService.Infrastructure.Migrations
 
             modelBuilder.Entity("CatalogService.Domain.Entities.Category", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .HasColumnType("longtext");
@@ -35,14 +35,17 @@ namespace CatalogService.Infrastructure.Migrations
 
             modelBuilder.Entity("CatalogService.Domain.Entities.Product", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
+                        .HasColumnType("int");
 
-                    b.Property<Guid>("CategoryId")
-                        .HasColumnType("char(36)");
+                    b.Property<int?>("CategoryId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Description")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("ImagePath")
                         .HasColumnType("longtext");
 
                     b.Property<string>("Name")
@@ -60,15 +63,15 @@ namespace CatalogService.Infrastructure.Migrations
 
             modelBuilder.Entity("CatalogService.Domain.Entities.Review", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
+                        .HasColumnType("int");
 
                     b.Property<string>("Comment")
                         .HasColumnType("longtext");
 
-                    b.Property<Guid>("ProductId")
-                        .HasColumnType("char(36)");
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
 
                     b.Property<int>("Rating")
                         .HasColumnType("int");
@@ -87,9 +90,7 @@ namespace CatalogService.Infrastructure.Migrations
                 {
                     b.HasOne("CatalogService.Domain.Entities.Category", "Category")
                         .WithMany("Products")
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CategoryId");
 
                     b.Navigation("Category");
                 });

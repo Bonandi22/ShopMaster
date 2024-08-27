@@ -3,24 +3,33 @@ using CatalogService.Application.DTOs;
 using CatalogService.Application.Interfaces;
 using CatalogService.Domain.Entities;
 using CatalogService.Domain.Interfaces;
+using CatalogService.Infrastructure.Repositories;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace CatalogService.Application.Services
 {
-    public class ProductService : IBaseService<ProductDto, Guid>, IProductService
+    public class ProductService : IProductService
     {
-        private readonly IBaseRepository<Product, Guid> _productRepository;
+        private readonly IBaseRepository<Product, int> _productRepository;
+        private readonly ICategoryRepository _categoryRepository;
         private readonly IMapper _mapper;
+        private readonly IFileService _fileService;
 
-        public ProductService(IBaseRepository<Product, Guid> productRepository, IMapper mapper)
+        public ProductService(IBaseRepository<Product, int> productRepository,
+                              ICategoryRepository categoryRepository,
+                              IMapper mapper,
+                              IFileService fileService)
         {
             _productRepository = productRepository;
+            _categoryRepository = categoryRepository;
             _mapper = mapper;
+            _fileService = fileService;
         }
 
-        public async Task<ProductDto> GetByIdAsync(Guid id)
+        public async Task<ProductDto> GetByIdAsync(int id)
         {
             try
             {
@@ -59,8 +68,35 @@ namespace CatalogService.Application.Services
                 throw new ArgumentNullException(nameof(dto), "Product data cannot be null.");
             }
 
+            var product = _mapper.Map<Product>(dto);
+            await _productRepository.AddAsync(product);
+        }
+
+        public async Task AddAsync(ProductDto dto, IFormFile image)
+        {
+            if (dto == null)
+            {
+                throw new ArgumentNullException(nameof(dto), "Product data cannot be null.");
+            }
+
+            // Verifique se o CategoryId é nulo antes de validar
+            if (dto.CategoryId != null)
+            {
+                var categoryExists = await _categoryRepository.ExistsAsync(dto.CategoryId);
+                if (!categoryExists)
+                {
+                    throw new ArgumentException("Invalid CategoryId. The category does not exist.");
+                }
+            }
+
             try
             {
+                if (image != null)
+                {
+                    var imagePath = await _fileService.UploadFileAsync(image);
+                    dto.ImagePath = imagePath;
+                }
+
                 var product = _mapper.Map<Product>(dto);
                 await _productRepository.AddAsync(product);
             }
@@ -96,7 +132,7 @@ namespace CatalogService.Application.Services
             }
         }
 
-        public async Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(int id)
         {
             try
             {

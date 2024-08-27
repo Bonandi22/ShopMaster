@@ -5,9 +5,6 @@ namespace IdentityService.Domain.Entities
 {
     public class Role : IdentityRole<Guid>
     {
-        [Key]
-        public Guid Id { get; set; }
-
-        public string? RoleName { get; set; }
+        public ICollection<UserRole> UserRoles { get; set; }
     }
 }

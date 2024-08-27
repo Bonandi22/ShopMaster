@@ -11,6 +11,7 @@ import { GuardsModule } from './core/guards/guards.module';
 import { InterceptorsModule } from './core/interceptors/interceptors.module';
 import { ServicesModule } from './core/services/services.module';
 import { SharedModule } from './shared/shared.module';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,9 @@ import { SharedModule } from './shared/shared.module';
     ServicesModule,
     SharedModule
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

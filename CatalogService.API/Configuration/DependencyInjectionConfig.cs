@@ -47,9 +47,9 @@ namespace CatalogService.API.Configuration
             services.AddAutoMapper(typeof(ProductProfile).Assembly);
 
             // Repositórios
-            services.AddScoped<IBaseRepository<Product, Guid>, ProductRepository>();
-            services.AddScoped<IBaseRepository<Category, Guid>, CategoryRepository>();
-            services.AddScoped<IBaseRepository<Review, Guid>, ReviewRepository>();
+            services.AddScoped<IBaseRepository<Product, int>, ProductRepository>();
+            services.AddScoped<IBaseRepository<Category, int>, CategoryRepository>();
+            services.AddScoped<IBaseRepository<Review, int>, ReviewRepository>();
 
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
@@ -59,6 +59,7 @@ namespace CatalogService.API.Configuration
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IReviewService, ReviewService>();
+            services.AddScoped<IFileService, FileService>();
 
             return services;
         }

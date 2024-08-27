@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PromotionService.Infrastructure/1.0.0": {
+        "dependencies": {
+          "PromotionService.Crosscutting": "1.0.0",
+          "PromotionService.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PromotionService.Infrastructure.dll": {}
+        }
+      },
+      "PromotionService.Crosscutting/1.0.0": {
+        "runtime": {
+          "PromotionService.Crosscutting.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PromotionService.Domain/1.0.0": {
+        "runtime": {
+          "PromotionService.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PromotionService.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PromotionService.Crosscutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PromotionService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

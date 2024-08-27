@@ -3,24 +3,22 @@ using CatalogService.Application.DTOs;
 using CatalogService.Application.Interfaces;
 using CatalogService.Domain.Entities;
 using CatalogService.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 
 namespace CatalogService.Application.Services
 {
-    public class CategoryService : IBaseService<CategoryDto, Guid>, ICategoryService
+    public class CategoryService : ICategoryService
     {
-        private readonly IBaseRepository<Category, Guid> _categoryRepository;
+        private readonly IBaseRepository<Category, int> _categoryRepository;
         private readonly IMapper _mapper;
 
-        public CategoryService(IBaseRepository<Category, Guid> categoryRepository, IMapper mapper)
+        public CategoryService(IBaseRepository<Category, int> categoryRepository, IMapper mapper)
         {
             _categoryRepository = categoryRepository;
             _mapper = mapper;
         }
 
-        public async Task<CategoryDto> GetByIdAsync(Guid id)
+        public async Task<CategoryDto> GetByIdAsync(int id)
         {
             try
             {
@@ -96,7 +94,7 @@ namespace CatalogService.Application.Services
             }
         }
 
-        public async Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(int id)
         {
             try
             {
@@ -113,6 +111,11 @@ namespace CatalogService.Application.Services
                 // Log exception here
                 throw new Exception("Error deleting category.", ex);
             }
+        }
+
+        public Task AddAsync(CategoryDto dto, IFormFile image)
+        {
+            throw new NotImplementedException();
         }
     }
 }

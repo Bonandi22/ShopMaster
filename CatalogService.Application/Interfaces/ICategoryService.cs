@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CatalogService.Application.Interfaces
 {
-    public interface ICategoryService : IBaseService<CategoryDto, Guid>
+    public interface ICategoryService : IBaseService<CategoryDto, int>
     {
     }
 }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CatalogService.Infrastructure.Repositories
 {
-    public class ProductRepository : IBaseRepository<Product, Guid>, IProductRepository
+    public class ProductRepository : IProductRepository
     {
         private readonly CatalogDbContext _context;
 
@@ -17,7 +17,7 @@ namespace CatalogService.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<Product> GetByIdAsync(Guid id)
+        public async Task<Product> GetByIdAsync(int id)
         {
             var product = await _context.Products.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
             if (product == null) throw new KeyNotFoundException($"Product with ID {id} not found.");
@@ -49,7 +49,7 @@ namespace CatalogService.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(int id)
         {
             var product = await _context.Products.FindAsync(id);
             if (product == null) throw new KeyNotFoundException($"Product with ID {id} not found.");

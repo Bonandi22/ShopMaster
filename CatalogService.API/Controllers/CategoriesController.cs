@@ -25,7 +25,7 @@ namespace CatalogService.API.Controllers
 
         // GET: api/categories/{id}
         [HttpGet("{id}")]
-        public async Task<ActionResult<CategoryDto>> GetById(Guid id)
+        public async Task<ActionResult<CategoryDto>> GetById(int id)
         {
             var category = await _categoryService.GetByIdAsync(id);
             if (category == null)
@@ -50,7 +50,7 @@ namespace CatalogService.API.Controllers
 
         // PUT: api/categories/{id}
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update(Guid id, [FromBody] CategoryDto categoryDto)
+        public async Task<ActionResult> Update(int id, [FromBody] CategoryDto categoryDto)
         {
             if (id != categoryDto.Id)
             {
@@ -69,7 +69,7 @@ namespace CatalogService.API.Controllers
 
         // DELETE: api/categories/{id}
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(Guid id)
+        public async Task<ActionResult> Delete(int id)
         {
             var category = await _categoryService.GetByIdAsync(id);
             if (category == null)

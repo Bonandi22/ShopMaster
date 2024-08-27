@@ -1,0 +1,155 @@
+/* Estiliza o corpo e o HTML para garantir que ocupem 100% da altura da página */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contêiner principal da aplicação com flexbox */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupa a altura total da janela de visualização */
+}
+
+/* Define o conteúdo para preencher o espaço disponível */
+.content {
+  flex: 1; /* Faz o conteúdo crescer para preencher o espaço restante */
+}
+
+/* Estilo do rodapé */
+.footer {
+  background-color: #808080; /* Cor de fundo do rodapé */
+  padding: 5px; /* Espaçamento interno */
+  text-align: center; /* Alinha o texto ao centro */
+  margin-top: auto; /* Empurra o rodapé para o fundo da página */
+}
+
+/* Contêiner do rodapé */
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* Espaça os itens ao longo do eixo principal */
+  align-items: center; /* Alinha os itens ao longo do eixo transversal */
+  max-width: 1200px; /* Largura máxima para centralizar o conteúdo */
+  margin: 0 auto; /* Centraliza o contêiner */
+}
+
+/* Estilo para a parte esquerda do rodapé */
+.footer-left p {
+  margin: 0; /* Remove margens padrão do parágrafo */
+}
+.footer-center p {
+  margin: 3rem; /* Remove margens padrão do parágrafo */
+}
+
+/* Estilo para a parte direita do rodapé */
+.footer-right {
+  display: flex;
+}
+
+.footer-links {
+  list-style: none; /* Remove os marcadores da lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Exibe a lista como um layout flexível */
+}
+
+  .footer-links li {
+    margin-left: 20px; /* Espaça os itens da lista */
+  }
+
+  .footer-links a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000000; /* Cor do texto dos links */
+  }
+
+    .footer-links a:hover {
+      text-decoration: underline; /* Sublinha os links ao passar o mouse */
+    }
+
+/* From Uiverse.io by david-mohseni */
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  height: 120px;
+  width: 100%;
+  padding-top: 40px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+  .wrapper .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+    .wrapper .tooltip::before {
+      position: absolute;
+      content: "";
+      height: 8px;
+      width: 8px;
+      background: #fff;
+      bottom: -3px;
+      left: 50%;
+      transform: translate(-50%) rotate(45deg);
+      transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #1877f2;
+    color: #fff;
+  }
+
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #1da1f2;
+    color: #fff;
+  }
+
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: #e4405f;
+    color: #fff;
+  }

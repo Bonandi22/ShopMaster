@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CatalogService.Infrastructure.Repositories
 {
-    public class ReviewRepository : IBaseRepository<Review, Guid>, IReviewRepository
+    public class ReviewRepository : IReviewRepository
     {
         private readonly CatalogDbContext _context;
 
@@ -25,7 +25,7 @@ namespace CatalogService.Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(int id)
         {
             var review = await _context.Reviews.FindAsync(id);
             if (review == null) throw new KeyNotFoundException($"Review with ID {id} not found.");
@@ -39,7 +39,7 @@ namespace CatalogService.Infrastructure.Repositories
             return await _context.Reviews.AsNoTracking().ToListAsync();
         }
 
-        public async Task<Review> GetByIdAsync(Guid id)
+        public async Task<Review> GetByIdAsync(int id)
         {
             var review = await _context.Reviews.AsNoTracking().FirstOrDefaultAsync(r => r.Id == id);
             if (review == null) throw new KeyNotFoundException($"Review with ID {id} not found.");

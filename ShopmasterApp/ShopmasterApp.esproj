@@ -8,7 +8,6 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\ShopmasterApp\browser\</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="src\app\assets\images\" />
     <Folder Include="src\app\assets\styles\" />
     <Folder Include="src\app\environments\" />
     <Folder Include="src\app\features\analytics\components\" />
@@ -37,6 +36,7 @@
     <Folder Include="src\app\features\shipping\components\" />
     <Folder Include="src\app\features\shipping\containers\" />
     <Folder Include="src\app\features\shipping\services\" />
+    <Folder Include="src\app\shared\components\header\assets\styles\" />
     <Folder Include="src\app\shared\directives\" />
     <Folder Include="src\app\shared\models\" />
     <Folder Include="src\app\shared\services\" />

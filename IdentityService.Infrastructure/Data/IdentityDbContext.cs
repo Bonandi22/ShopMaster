@@ -11,11 +11,7 @@ namespace IdentityService.Infrastructure.Data
         {
         }
 
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-
-            // Configurações adicionais, se necessário
-        }
+        public IdentityDbContext()
+        { }
     }
 }
